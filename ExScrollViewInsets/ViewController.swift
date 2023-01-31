@@ -8,12 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        scrollView.contentInset = .init(top: 120, left: 30, bottom: 0, right: 0)
     }
-
-
 }
 
